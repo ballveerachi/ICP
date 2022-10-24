@@ -12,7 +12,7 @@
         method="post"
       >
         <div class="row">
-          <div class="input-field col s4">
+          <div class="col-md-6 col-xs-12">
             <label for="emp-id">EP-ID/รหัส:</label>
             <input
               type="text"
@@ -23,7 +23,7 @@
               class="form-control form-control-lg"
             />
           </div>
-          <div class="input-field col s4">
+          <div class="col-md-6 col-xs-12">
             <label for="emp-name">Name/ชื่อ-สกุล:</label>
             <input
               type="text"
@@ -36,7 +36,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="input-field col s4" style="width: 300px">
+          <div class="col-md-6 col-xs-12" style="width: 300px">
             <label for="emp-Department">Department/สาขาวิชา:</label>
             <input
               type="text"
@@ -54,7 +54,7 @@
               <option value="วิทยาการคอมพิวเตอร์">วิทยาการคอมพิวเตอร์</option>
             </select>
           </div>
-          <div class="input-field col s4" style="width: 300px">
+          <div class="col-md-6 col-xs-12" style="width: 300px">
             <label for="emp-University">University/สถาบันการศึกษา:</label>
             <input
               type="text"

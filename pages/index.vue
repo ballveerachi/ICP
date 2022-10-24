@@ -1,20 +1,22 @@
 <template>
 <div>
-  <FormComponent />
+  <SidebarView/>
+  <!-- <FormComponent />
   <FormPlanCareer/>
   <FormQualification/>
   <FormPlan/>
   <FormSelfAssessment/>
-  <FormPivotTable />
-  <h1>222222</h1>
+  <FormPivotTable /> -->
+  
   
   </div>
+  
 </template>
 
 <script>
 
 export default {
   name: 'IndexPage',
-
+ 
 }
 </script>

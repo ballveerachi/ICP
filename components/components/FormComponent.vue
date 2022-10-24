@@ -12,7 +12,7 @@
         method="post"
       >
         <div class="row">
-          <div class="input-field col s4">
+          <div class="col-md-6 col-xs-12">
             <label for="emp-id">EP-ID/รหัส:</label>
             <input
               type="text"
@@ -23,7 +23,7 @@
               class="form-control form-control-lg"
             />
           </div>
-          <div class="input-field col s4">
+          <div class="col-md-6 col-xs-12">
             <label for="emp-name">Name/ชื่อ-สกุล:</label>
             <input
               type="text"

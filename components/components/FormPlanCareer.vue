@@ -3,7 +3,7 @@
   <h3>แผนอาชีพ</h3>
   <form @submit.prevent="submitForm" @reset.prevent="resetForm" method="post">
     <div class="row">
-      <div class="input-field col s4">
+      <div class="col-md-6 col-xs-12">
         <label for="planCareer-id">PC-ID/รหัสอาชีพ:</label>
         <input
           type="text"
@@ -14,7 +14,7 @@
           class="form-control form-control-lg"
         />
       </div>
-      <div class="input-field col s4">
+      <div class="col-md-6 col-xs-12">
         <label for="Employee-id">EP-ID/รหัสพนักงาน:</label>
         <input
           type="text"
