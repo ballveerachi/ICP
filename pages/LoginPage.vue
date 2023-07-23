@@ -86,7 +86,7 @@ export default {
         })
         .then(function (res) {
           console.log("data:",res.data);
-          if(res.data.lenght > 0){
+          if(res.data.length > 0){
             var member_id = res.data.map((item) => item.member_id)[0];
             var full_name = res.data.map((item) => item.full_name)[0];
             var status = res.data.map((item) => item.status)[0];
